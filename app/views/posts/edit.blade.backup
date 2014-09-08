@@ -1,0 +1,33 @@
+@extends('templates.default')
+
+<!--dynamic title-->
+@section('title')Edit Post @stop
+
+@section('content')
+
+	<!-- Populate form with data/route -->
+	<!-->{{ Form::model($post,
+		[
+			'method' => 'PATCH',
+			'route' => ['posts.update', $post->id]
+		]) 
+	}}-->
+	<!-- Populate form with data/route -->
+	{{ Form::model($post) }}
+
+		<div>
+			{{ Form::label('title', 'Title:') }}
+			{{ Form::text('title') }}
+		</div>
+		<div>
+			{{ Form::label('body', 'Body:') }}
+			{{ Form::textarea('body') }}
+		</div>
+		
+		</div>
+			{{ Form::submit('Update Post') }}
+		</div>
+		
+	{{ Form::close() }}
+
+@stop

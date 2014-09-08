@@ -1,0 +1,4 @@
+/*fix scroll bar effecting page margin*/
+html {
+    overflow-y: scroll;
+}
