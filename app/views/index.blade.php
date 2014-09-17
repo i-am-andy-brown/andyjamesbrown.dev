@@ -5,7 +5,7 @@
 
 @section('content')
 
-	<div class="col-sm-12">
+	<div class="col-md-4 col-md-offset-4">
 		<div class="jumbotron">
 		
 			<div class="container">	
@@ -15,6 +15,6 @@
 			
 		</div><!-- close splash-->
 		
-	</div><!-- close col-sm-12-->
+	</div><!-- close col-md-6-->
 	
 @stop
