@@ -7,11 +7,10 @@
 	
 	<div class="col-md-4 col-md-offset-4">
 		<div class="jumbotron">
-			<div class="container">		
+			<div class="container text-center">		
 		
-			<div class="box">
-				<h2>Login</h2>
-
+				<h1>Login</h1>
+				<p>Please enter your account details.</p>
 				<form name = "login" action = "">
 					<input type="email" name="email" placeholder="email"><br />
 					<input type="password" name="pwd" placeholder="password"><br />
@@ -20,7 +19,7 @@
 							Login
 					</button>
 				</form>
-				</div>
+
 			</div><!--end container-->
 		</div><!--end jumbotron-->
 	</div>

@@ -10,4 +10,11 @@ input {
   .box-sizing(border-box); /* Makes inputs behave like true block-level elements */
 }
 
-
+.splash {
+	background-image: url('../img/dots.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+}

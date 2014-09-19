@@ -13,8 +13,8 @@
 		
 	</head>
 
-	<body>
-		
+	<body class="splash"> 
+				
 		@include('templates.nav')
 		@yield('content')
 
