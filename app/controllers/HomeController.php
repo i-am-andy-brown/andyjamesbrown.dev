@@ -29,8 +29,6 @@ class HomeController extends BaseController {
 			->with('posts', $posts);
 	}
 
-
-
 	/*public function email()
 	{
 		$user = User::find(1);

@@ -9,14 +9,14 @@
 						<a href="{{ URL::route('index') }}">Home</a>
 					</li>
 					<li>
+						<a href="{{ URL::route('index') }}#about">About</a>
+					</li>
+					<li>
 						<a href="{{ URL::route('blog') }}">Blog</a>
 					</li>
-					<li>
-						<a href="{{ URL::route('admin') }}">Admin</a>
-					</li>
-					<li>
+					<!--<li>
 						<a href="{{ URL::route('login') }}">Login</a>
-					<li>					
+					<li>-->					
 				</ul>
 			
 		</div>

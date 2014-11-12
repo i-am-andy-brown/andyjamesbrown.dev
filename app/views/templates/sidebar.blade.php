@@ -8,7 +8,7 @@
 		<ul class="list-group">
 			<li class="list-group-item row">
 			
-				<a href="{{ URL::route('index') }}">All posts</a>
+				<a href="{{ URL::route('blog') }}">All posts</a>
 			
 				<?php 
 					//varify $post set, and if so return count

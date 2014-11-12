@@ -10,11 +10,17 @@ input {
   .box-sizing(border-box); /* Makes inputs behave like true block-level elements */
 }
 
+.jumbotron {
+}
+
 .splash {
-	background-image: url('../img/dots.gif');
+	/*background-image: url('../img/bike.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 	position: relative;
+	background: url('../img/road.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 48em;
 }

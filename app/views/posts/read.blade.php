@@ -29,7 +29,7 @@
 
 						<!-- 157 character limit for post body -->
 						{{ Markdown::parse(Str::limit($post
-							->body, 157)) }}
+							->body, 512)) }}
 					
 						<!-- "read more" = slug-->
 						<a href="{{ $slug }}">Read more&hellip;</a>

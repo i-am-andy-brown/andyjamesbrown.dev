@@ -20,8 +20,14 @@ Route::get('/', [
 Route::get('admin', [
 	'as' => 'admin',
 	'uses' => 'AdminController@index'
-]);
+	//applies basic filter to admin page
+])->before('auth.basic');
 
+/* Login */
+
+Route::get('login', [
+
+]);
 
 /* View all posts */
 
